@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.score-col--leading 
+{
+    border:solid 3px rgba(154, 171, 216, 1);
+}
+
 .score-col__team
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
