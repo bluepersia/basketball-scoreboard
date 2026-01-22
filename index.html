@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="./styles/style.css"/>
         <link rel="stylesheet" href="./styles/blocks/scoreboard.css"/>
         <link rel="stylesheet" href="./styles/blocks/score-col.css"/>
+        <link rel="stylesheet" href="./styles/blocks/btn.css"/>
     </head>
     <body>
         <h1 class="sr-only">Basketball Scoreboard</h1>
@@ -14,23 +15,23 @@
                 <h2 class="score-col__team">Home</h2>
                 <span class="score-col__score" data-score>0</span>
                 <div class="score-col__btns">
-                    <button class="score-col__btn" data-add-one>+1</button>
-                    <button class="score-col__btn" data-add-two>+2</button>
-                    <button class="score-col__btn" data-add-three>+3</button>
+                    <button class="btn" data-add-one>+1</button>
+                    <button class="btn" data-add-two>+2</button>
+                    <button class="btn" data-add-three>+3</button>
                 </div>
             </div>
             <div class="score-col" id="guest">
                 <h2 class="score-col__team">Guest</h2>
                 <span class="score-col__score" data-score>0</span>
                 <div class="score-col__btns">
-                    <button class="score-col__btn" data-add-one>+1</button>
-                    <button class="score-col__btn" data-add-two>+2</button>
-                    <button class="score-col__btn" data-add-three>+3</button>
+                    <button class="btn" data-add-one>+1</button>
+                    <button class="btn" data-add-two>+2</button>
+                    <button class="btn" data-add-three>+3</button>
                 </div>
             </div>
         </section>
 
-        <button class="new-game-btn">New Game</button>
+        <button id="new-game-btn" class="new-game-btn btn">New Game</button>
 
         <script src="./src/index.js" type="module">
         </script>
