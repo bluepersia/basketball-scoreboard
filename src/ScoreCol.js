@@ -8,6 +8,7 @@ export default class ScoreCol
     addOneBtn = null
     addTwoBtn = null
     addThreeBtn = null
+    scoreChanged = []
     constructor (el)
     {
         this.el = el;
@@ -31,5 +32,6 @@ export default class ScoreCol
     {
         this.score = value;
         this.scoreEl.textContent = value;
+        this.scoreChanged.forEach(el => el(value));
     }
 }

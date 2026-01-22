@@ -1,0 +1,16 @@
+
+.btn {
+    padding: 0.625rem;
+    background:none;
+    border: solid 2px rgba(154, 171, 216, 1);
+    color: rgba(154, 171, 216, 1);;
+    font-family: inherit;
+    border-radius: 0.3125rem;
+    transition: background-color 300ms, color 300ms;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background-color: rgba(154, 171, 216, 1);
+    color: rgba(27, 36, 74, 1);
+}

@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.score-col--leading 
+{
+    border:solid 3px rgba(154, 171, 216, 1);
+}
+
 .score-col__team
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,20 +41,5 @@
     justify-content: space-between;
 }
 
-.score-col__btn {
-    width: 2.81rem;
-    height: 2.81rem;
-    background:none;
-    border: solid 2px rgba(154, 171, 216, 1);
-    color: rgba(154, 171, 216, 1);;
-    font-family: inherit;
-    border-radius: 0.3125rem;
-    transition: background-color 300ms, color 300ms;
-    cursor: pointer;
-}
 
-.score-col__btn:hover, .score-col__btn:focus {
-    background-color: rgba(154, 171, 216, 1);
-    color: rgba(27, 36, 74, 1);
-}
 
