@@ -12,7 +12,7 @@
         <section class="scoreboard">
             <div class="score-col" id="home">
                 <h2 class="score-col__team">Home</h2>
-                <span class="score-col__score">0</span>
+                <span class="score-col__score" data-score>0</span>
                 <div class="score-col__btns">
                     <button class="score-col__btn" data-add-one>+1</button>
                     <button class="score-col__btn" data-add-two>+2</button>
@@ -21,7 +21,7 @@
             </div>
             <div class="score-col" id="guest">
                 <h2 class="score-col__team">Guest</h2>
-                <span class="score-col__score">0</span>
+                <span class="score-col__score" data-score>0</span>
                 <div class="score-col__btns">
                     <button class="score-col__btn" data-add-one>+1</button>
                     <button class="score-col__btn" data-add-two>+2</button>
@@ -29,5 +29,8 @@
                 </div>
             </div>
         </section>
+
+        <script src="./src/index.js" type="module">
+        </script>
     </body>
 </html>
