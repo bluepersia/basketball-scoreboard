@@ -11,8 +11,49 @@
     <link rel="stylesheet" href="src/css/utilities.css" />
 
     <!-- Blocks-->
+    <link rel="stylesheet" href="src/css/blocks/scoreboard/scoreboard.css" />
+    <link rel="stylesheet" href="src/css/blocks/score-col/score-col.css" />
+    <link rel="stylesheet" href="src/css/blocks/btn/btn.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <main class="scoreboard" id="scoreboard">
+      <h1 class="sr-only">Basketball Scoreboard</h1>
+      <p class="scoreboard__announcement" id="announcement">30 seconds left</p>
+      <div class="scoreboard__inner">
+        <section class="score-col" id="home">
+          <h2 class="score-col__title">Home</h2>
+          <p class="score-col__score" data-score>0</p>
+          <ul class="score-col__actions reset-list">
+            <li class="score-col__actions-item">
+              <button class="btn" data-add-one>+1</button>
+            </li>
+            <li class="score-col__actions-item">
+              <button class="btn" data-add-two>+2</button>
+            </li>
+            <li class="score-col__actions-item">
+              <button class="btn" data-add-three>+3</button>
+            </li>
+          </ul>
+        </section>
+        <section class="score-col" id="guest">
+          <h2 class="score-col__title">Guest</h2>
+          <p class="score-col__score" data-score>0</p>
+          <ul class="score-col__actions reset-list">
+            <li class="score-col__actions-item">
+              <button class="btn" data-add-one>+1</button>
+            </li>
+            <li class="score-col__actions-item">
+              <button class="btn" data-add-two>+2</button>
+            </li>
+            <li class="score-col__actions-item">
+              <button class="btn" data-add-three>+3</button>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <button class="scoreboard__new btn" id="new-game-btn">New Game</button>
+    </main>
+
+    <script src="dist/scripts/index.js" type="module"></script>
   </body>
 </html>

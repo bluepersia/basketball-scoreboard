@@ -1,3 +1,3 @@
-const message = "Hello World";
+import Scoreboard from "./components/Scoreboard/Scoreboard.js";
 
-console.log(message);
+Scoreboard();

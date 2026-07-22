@@ -14,6 +14,10 @@ html {
 body {
   font-family: var(--font-verdana);
   background-color: var(--color-dark-blue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {

@@ -1,0 +1,15 @@
+.scoreboard__announcement {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.scoreboard__inner {
+  display: flex;
+  justify-content: center;
+  column-gap: 5.5rem;
+}
+
+.scoreboard__new {
+  margin: 0 auto;
+  margin-top: 1rem;
+}
