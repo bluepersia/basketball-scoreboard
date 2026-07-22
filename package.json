@@ -23,6 +23,6 @@
     "stylelint": "^17.14.1",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-declaration-strict-value": "^1.11.1",
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.3"
   }
 }
