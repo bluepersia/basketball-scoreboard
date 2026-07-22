@@ -1,0 +1,31 @@
+{
+  "name": "basketball-scoreboard",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bluepersia/basketball-scoreboard#readme",
+  "bugs": {
+    "url": "https://github.com/bluepersia/basketball-scoreboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluepersia/basketball-scoreboard.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-declaration-strict-value": "^1.11.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.65.0"
+  }
+}

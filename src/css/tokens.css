@@ -1,0 +1,30 @@
+@font-face {
+  /* stylelint-disable-next-line scale-unlimited/declaration-strict-value */
+  font-family: cursedtimer;
+  src: url("/assets/fonts/CursedTimer.ttf");
+}
+
+:root {
+  /* Colors */
+  --color-white: #eee;
+  --color-light-blue: #9aabd8;
+  --color-dark-blue: #1b244a;
+  --color-red: #f94f6d;
+  --color-black: #080001;
+
+  /* Fonts */
+  --font-cursed: cursedtimer;
+  --font-verdana: verdana, geneva, tahoma, sans-serif;
+
+  /* Font Sizes */
+  --font-size-100: 1rem;
+  --font-size-200: 2.22rem;
+  --font-size-600: 5rem;
+
+  /* Font Weights */
+  --font-weight-100: 400;
+  --font-weight-400: 700;
+
+  /* Radiuses */
+  --radius-100: 5px;
+}

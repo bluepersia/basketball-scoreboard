@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* stylelint-disable-next-line scale-unlimited/declaration-strict-value */
+  font-size: 18px;
+}
+
+body {
+  font-family: var(--font-verdana);
+  background-color: var(--color-dark-blue);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  display: block;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
