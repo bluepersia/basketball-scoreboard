@@ -1,0 +1,12 @@
+.btn {
+  font-family: var(--font-cursed);
+  border: solid var(--color-light-blue) 2px;
+  border-radius: var(--radius-100);
+  color: var(--color-light-blue);
+  padding: 0.44em;
+}
+
+.btn:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-black);
+}

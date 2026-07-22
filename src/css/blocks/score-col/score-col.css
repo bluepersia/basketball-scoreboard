@@ -1,0 +1,31 @@
+.score-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-col__title {
+  font-size: var(--font-size-200);
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 1.16rem;
+}
+
+.score-col__score {
+  background-color: var(--color-black);
+  color: var(--color-red);
+  width: 155px;
+  height: 120px;
+  font-family: var(--font-cursed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-600);
+  margin-bottom: 1.44rem;
+}
+
+.score-col__actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
